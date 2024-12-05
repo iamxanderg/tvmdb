@@ -1,0 +1,85 @@
+@import './all.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-family: $font-family;
+  font-size: $font-size-base;
+}
+
+body {
+  height: 100vh;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+  background-color: $ds_colour__white;
+  color: $ds_colour__text;
+  font-size: $body_font-size--small;
+  line-height: $body_line-height--small;
+  font-weight: $body_font-weight;
+
+  @include md-breakpoint {
+    font-size: $body_font-size;
+    line-height: $body_line-height;
+  }
+}
+
+h1 {
+  font-size: $h1_font-size--small;
+  line-height: $h1_line-height--small;
+  font-weight: $h1_font-weight;
+
+  @include md-breakpoint {
+    font-size: $h1_font-size;
+    line-height: $h1_line-height;
+  }
+}
+
+h2 {
+  font-size: $h2_font-size--small;
+  line-height: $h2_line-height--small;
+  font-weight: $h2_font-weight;
+
+  @include md-breakpoint {
+    font-size: $h2_font-size;
+    line-height: $h2_line-height;
+  }
+}
+
+h3 {
+  font-size: $h3_font-size--small;
+  line-height: $h3_line-height--small;
+  font-weight: $h3_font-weight;
+
+  @include md-breakpoint {
+    font-size: $h3_font-size;
+    line-height: $h3_line-height;
+  }
+}
+
+h4 {
+  font-size: $h4_font-size--small;
+  line-height: $h4_line-height--small;
+  font-weight: $h4_font-weight;
+
+  @include md-breakpoint {
+    font-size: $h4_font-size;
+    line-height: $h4_line-height;
+  }
+}
+
+h5 {
+  font-size: $h5_font-size--small;
+  line-height: $h5_line-height--small;
+  font-weight: $h5_font-weight;
+
+  @include md-breakpoint {
+    font-size: $h5_font-size;
+    line-height: $h5_line-height;
+  }
+}

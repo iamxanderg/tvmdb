@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+  background: rgb(14, 88, 175);
+  background: radial-gradient(circle, rgba(14, 88, 175, 1) 0%, rgba(1, 1, 45, 1) 100%);
+}
+
+h1 {
+  width: 100%;
+  color: #ffffff;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.searchbar {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  h1 {
+    width: 70%;
+    padding-bottom: 0;
+    text-align: left;
+  }
+
+  .searchbar {
+    width: 30%;
+  }
+}

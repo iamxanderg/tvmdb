@@ -1,0 +1,41 @@
+// Font mixins
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: px-to-rem($size);
+}
+
+@mixin font-smoothing() {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Breakpoint mixins
+@mixin sm-breakpoint {
+  @media only screen and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin md-breakpoint {
+  @media only screen and (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin lg-breakpoint {
+  @media only screen and (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin xl-breakpoint {
+  @media only screen and (min-width: $xl) {
+    @content;
+  }
+}
+
+@mixin xxl-breakpoint {
+  @media only screen and (min-width: $xxl) {
+    @content;
+  }
+}

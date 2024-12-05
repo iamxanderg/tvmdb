@@ -1,0 +1,66 @@
+// Unit functions
+
+// Convert pixel value to em value
+@function px-to-em($pixels) {
+  @if (is-null($pixels) or is-percent($pixels)) {
+    @warn "Wrong unit value or data type. Make sure value is in px";
+    @return null;
+  } @else {
+    @return #{$pixels/$base-font-size}em;
+  }
+}
+
+// Convert pixel value to rem value
+@function px-to-rem($pixels) {
+  @if (is-null($pixels) or is-percent($pixels)) {
+    @warn "Wrong unit value or data type. Make sure value is in px";
+    @return null;
+  } @else {
+    @return #{$pixels/$base-font-size}rem;
+  }
+}
+
+// Check if value data type is null
+@function is-null($value) {
+  @if type-of($value) == 'null' {
+    @return true;
+  }
+
+  @return false;
+}
+
+// Check if value data type is percentage
+@function is-percent($value) {
+  @if type-of($value) == '%' {
+    @return true;
+  }
+
+  @return false;
+}
+
+/// Return number to specified number of decimal places
+/// @param {Number} $number - the number to return
+/// @param {Number} $digit [2] - the number of decimal places to return
+@function to-fixed($number, $digit: 2) {
+  $i: $digit * 100;
+
+  @return floor($number * $i) / $i;
+}
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+/// Map functions
+
+/// Return value from the map given a specified key
+/// @param {Map} $map - the map to search
+/// @param {key} $key - the unique map key
+@function get-map-value($map, $key) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
+  } @else {
+    @warn "Unknown '#{key}' in map `#{$map}`";
+    @return null;
+  }
+}

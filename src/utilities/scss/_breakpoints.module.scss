@@ -1,0 +1,14 @@
+// Default is for extra small devices such as small phones
+$sm: 640px; // Small devices such as large phones (640px and up) 40em
+$md: 768px; // Medium devices such as tablets (768px and up) 48em
+$lg: 1024px; // Large devices such as laptops (1024px and up) 64em
+$xl: 1280px; // Extra large devices such as desktops (1280px and up) 80em
+$xxl: 1536px; // Huge devices such as desktops (1536px and up) 96em
+
+// :export {
+//   sm: $sm;
+//   md: $md;
+//   lg: $lg;
+//   xl: $xl;
+//   xxl: $xxl;
+// }

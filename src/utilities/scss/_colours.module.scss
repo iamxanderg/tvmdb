@@ -1,0 +1,120 @@
+// Design System (based on Scottish Government Design System)
+
+// Brand colour
+$ds_colour__brand: #0065bd;
+$ds_colour__brand--secondary: #002d54;
+
+// Text
+$ds_colour__text: #333333;
+$ds_colour__text--secondary: #727272;
+
+// Links
+$ds_colour__link: #0065bd;
+$ds_colour__link--hover: #00437e;
+$ds_colour__link--hover__background: #d9effc;
+$ds_colour__link--current: #333333;
+$ds_colour__link--current__background: #f8f8f8;
+$ds_colour__link--visited: #4c2c92;
+$ds_colour__link--active: #0b0c0c;
+
+// Focus state
+$ds_colour__focus: #333333;
+$ds_colour__focus--background: #fdd522;
+
+// Positive messaging
+$ds_colour__state--positive: #428542;
+
+// Negative messaging
+$ds_colour__state--negative: #d32205;
+
+// Borders
+$ds_colour__border: #b3b3b3;
+$ds_colour__border--strong: #333333;
+$ds_colour__border--faint: #ebebeb;
+$ds_colour__border--highlight: #0065bd;
+
+// Backgrounds
+$ds_colour__background--primary: #ffffff;
+$ds_colour__background--secondary: #f8f8f8;
+$ds_colour__background--tertiary: #ebebeb;
+
+// Extended palette
+$ds_colour__green: #5eb135;
+$ds_colour__dark-green: #428542;
+$ds_colour__teal: #28a197;
+$ds_colour__dark-teal: #017878;
+$ds_colour__blue--lighter: #d9effc;
+$ds_colour__blue--light: #2b8cc4;
+$ds_colour__blue: #0065bd;
+$ds_colour__blue--dark: #00437e;
+$ds_colour__blue--darker: #002d54;
+$ds_colour__purple--light: #6f72af;
+$ds_colour__purple: #912688;
+$ds_colour__purple--dark: #2e358b;
+$ds_colour__pink--light: #f499be;
+$ds_colour__pink: #e5007e;
+$ds_colour__white: #ffffff;
+$ds_colour__grey--lighter: #f8f8f8;
+$ds_colour__grey--light: #ebebeb;
+$ds_colour__grey--medium: #b3b3b3;
+$ds_colour__grey: #727272;
+$ds_colour__grey--dark: #333333;
+$ds_colour__black: #000000;
+$ds_colour__red: #d32205;
+$ds_colour__brown: #592c20;
+$ds_colour__orange: #f47738;
+$ds_colour__yellow: #fdd522;
+
+// Special
+$ds_colour__blue--gov-uk: #005ea5;
+
+// :export {
+//   dsColourBrand: $ds_colour__brand;
+//   dsColourBrandSecondary: $ds_colour__brand--secondary;
+//   dsColourText: $ds_colour__text;
+//   dsColourTextSecondary: $ds_colour__text--secondary;
+//   dsColourLink: $ds_colour__link;
+//   dsColourLinkHover: $ds_colour__link--hover;
+//   dsColourLinkHoverBackground: $ds_colour__link--hover__background;
+//   dsColourLinkCurrent: $ds_colour__link--current;
+//   dsColourLinkCurrentBackground: $ds_colour__link--current__background;
+//   dsColourLinkVisited: $ds_colour__link--visited;
+//   dsColourLinkActive: $ds_colour__link--active;
+//   dsColourFocus: $ds_colour__focus;
+//   dsColourFocusBackground: $ds_colour__focus--background;
+//   dsColourStatePositive: $ds_colour__state--positive;
+//   dsColourStateNegative: $ds_colour__state--negative;
+//   dsColourBorder: $ds_colour__border;
+//   dsColourBorderStrong: $ds_colour__border--strong;
+//   dsColourBorderFaint: $ds_colour__border--faint;
+//   dsColourBorderHighlight: $ds_colour__border--highlight;
+//   dsColourBackgroundPrimary: $ds_colour__background--primary;
+//   dsColourBackgroundSecondary: $ds_colour__background--secondary;
+//   dsColourBackgroundTertiary: $ds_colour__background--tertiary;
+//   dsColourGreen: $ds_colour__green;
+//   dsColourDarkGreen: $ds_colour__dark-green;
+//   dsColourTeal: $ds_colour__teal;
+//   dsColourDarkTeal: $ds_colour__dark-teal;
+//   dsColourBlueLighter: $ds_colour__blue--lighter;
+//   dsColourBlueLight: $ds_colour__blue--light;
+//   dsColourBlue: $ds_colour__blue;
+//   dsColourBlueDark: $ds_colour__blue--dark;
+//   dsColourBlueDarker: $ds_colour__blue--darker;
+//   dsColourPurpleLight: $ds_colour__purple--light;
+//   dsColourPurple: $ds_colour__purple;
+//   dsColourPurpleDark: $ds_colour__purple--dark;
+//   dsColourPinkLight: $ds_colour__pink--light;
+//   dsColourPink: $ds_colour__pink;
+//   dsColourWhite: $ds_colour__white;
+//   dsColourGreyLighter: $ds_colour__grey--lighter;
+//   dsColourGreyLight: $ds_colour__grey--light;
+//   dsColourGreyMedium: $ds_colour__grey--medium;
+//   dsColourGrey: $ds_colour__grey;
+//   dsColourGreyDark: $ds_colour__grey--dark;
+//   dsColourBlack: $ds_colour__black;
+//   dsColourRed: $ds_colour__red;
+//   dsColourBrown: $ds_colour__brown;
+//   dsColourOrange: $ds_colour__orange;
+//   dsColourYellow: $ds_colour__yellow;
+//   dsColourBlueGovUK: $ds_colour__blue--gov-uk;
+// }
